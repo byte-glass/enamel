@@ -1,0 +1,4 @@
+(executable
+ (name nml)
+ (libraries core)
+ (modules nml))
