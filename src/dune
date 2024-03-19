@@ -1,4 +1,9 @@
 (executable
+ (name pipeline)
+ (libraries core pcre)
+ (modules pipeline))
+
+(executable
  (name nml)
- (libraries core)
+ (libraries core pcre)
  (modules nml))
