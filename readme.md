@@ -6,21 +6,23 @@ This repo is inspired by Cristina Videira Lopes's book and modelled on her [gith
 
 ## latest
 
- - see src/pipeline
+ - see src/nml
 
 ## next steps
 
- - src/nml more functional version of pipeline, maps or hashtables?
+ - src/nml, try maps rather than hashtables
  - golf
 
 ## usage
 
-In the top-level directory,
+In the top-level directory, on running 
 
 ```sh
 dune exec src/pipeline.exe
 ```
-=>
+
+expect to see the following 
+
     mr - 786  
     elizabeth - 635  
     very - 488  
